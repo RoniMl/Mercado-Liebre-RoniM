@@ -1,0 +1,155 @@
+.promocion{
+ width: 100%;
+ height: relative;
+}
+#articulo1{
+    background-color: white;   
+    height: auto;
+}
+#articulo2{
+    background-color: white;
+    height: auto;
+}
+#articulo3{
+    background-color: white;
+    height: auto;
+}
+#articulo4{   
+    background-color: white;
+    height: auto;
+}
+.descuento{
+  color: green;
+  
+}
+.ultimasBusquedas{
+    color: gray;
+    font: 1em sans-serif;
+    margin-left: 70px;
+
+}
+ .header{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: #fff159 ;
+    text-align:center;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;     
+  }  
+  .tarjetaOEfectivo{
+    flex-flow: row;
+    display:flex;
+  }
+  .mercadoYBarra{
+    flex-flow: row;
+    display:flex;
+    gap: 20px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+ .ww{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ebebeb ;
+    position: relative;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .autito{
+    border-radius: 2px;
+    border-color:#3d6615 ;
+  } 
+  .clasePadre{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+ .div{ 
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    background: white;
+    text-align: left;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;   
+ }
+  .barraBusqueda{
+   width: 300px;
+   height: 25px;
+   border: 0%;
+
+  }
+  .selector1{
+        list-style-type: none;
+        display: flex;
+        padding: 10px;
+        justify-content: left;
+        gap: 7px; 
+        background-color: #fff159 ;  
+  }
+  .arriba{
+    flex-direction: row;  
+    display:block;
+    gap: 3em;
+    width: 72%;
+     }
+ .precios {
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 5px; 
+ }
+.footer {
+ background-color: white;
+ height: 150px;
+ display: flex;
+ flex-flow: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 50px;
+ width: 100%;
+ padding-top: 25px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ #footerPaga{
+  font-size: small;
+  width: 300px;
+  height: 100px;
+ }
+ #footerEnvio{
+  font-size: small;
+  width: 300px;
+  height: 100px;
+ }
+ #footerSeguridad{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: small;
+  width: 300px;
+  height: 100px;
+ }
+ .copi{
+  text-align: left;
+  text-align: end; 
+ }
+@media screen and (min-width:330px) and (max-width:1250px){
+  .selector1{
+   
+    justify-content: center;
+    display:flex;
+    gap: 15px;
+
+  }
+}
+
