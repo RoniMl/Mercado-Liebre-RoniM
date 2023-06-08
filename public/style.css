@@ -87,11 +87,15 @@
     flex-wrap: wrap;   
  }
   .barraBusqueda{
-   width: 300px;
+   width: 340px;
    height: 25px;
    border: 0%;
-
+   grid-area: nav-center-top;
   }
+   .nav-header-plus .nav-center-area.nav-top-area {
+    grid-area: nav-center-top;
+}
+
   .selector1{
         list-style-type: none;
         display: flex;
@@ -143,6 +147,12 @@
   text-align: left;
   text-align: end; 
  }
+
+.tituloNoIndex{
+  text-align: center;
+}
+
+
 @media screen and (min-width:330px) and (max-width:1250px){
   .selector1{
    
